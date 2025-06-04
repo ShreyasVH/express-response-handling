@@ -1,3 +1,5 @@
 node_modules
 .envrc
 .idea
+npmInstall.log
+server.log

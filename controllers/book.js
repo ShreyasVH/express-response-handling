@@ -8,7 +8,7 @@ const bookService = new BookService();
 
 const getAll = async (req, res, next) => {
   const books = await bookService.getAll();
-  res.json(books.map(book => new BookResponse(book)));
+  res.json(new Response(books.map(book => new BookResponse(book))));
 }
 
 const create = async (req, res, next) => {

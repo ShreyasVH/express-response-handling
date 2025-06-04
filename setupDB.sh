@@ -1,0 +1,1 @@
+mongosh "mongodb://$MONGODB_IP:$MONGODB_PORT" --eval "var args = ['$MONGODB_DB']" < db.js
