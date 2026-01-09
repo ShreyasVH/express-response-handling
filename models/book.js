@@ -17,7 +17,6 @@ bookSchema.pre('save', async function (next) {
       { new: true, upsert: true }
     );
     book._id = counter.sequenceValue;
-    next();
   } catch (error) {
     console.error('Failed to generate book ID:', error);
     throw error;
