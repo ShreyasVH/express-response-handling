@@ -3,3 +3,4 @@ node_modules
 .idea
 npmInstall.log
 server.log
+ncuLog.txt
